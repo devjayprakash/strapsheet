@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-let Homepage : React.FC = () => {
+let Homepage: React.FC = () => {
     return (
-        <div>
+        <div data-testid="homepage">
             <h1>Our amazing awsome project</h1>
         </div>
-    )
-}
+    );
+};
 
-export default Homepage
+export default Homepage;
